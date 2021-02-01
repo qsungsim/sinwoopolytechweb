@@ -94,7 +94,7 @@ nav {
 	top: 0; 
 }
 
-ul  {
+.topnav  {
 	list-style-type: none;
 	overflow: hidden;
 	margin: 0 auto;
@@ -102,17 +102,28 @@ ul  {
 	color:white;
 	}
 
-li {float:left;}
-
-li a{
+.topnav a {
 	color:white; 
 	text-decoration: none;
+	display: inline;
 }
-.logo{margin: 29px 0;}
-.tagline{margin: 40px 20px;}
-.topnavright{float:right; margin: 40px 20px;}
-.price{margin: 0 30px;}
-.home{margin: 0 30px;}
+
+.topnav a:hover {
+	text-decoration: underline;
+}
+
+.topnav-right{float:right;}
+
+.logo{
+	  float:left;
+	  margin: 29px 0;
+	}
+.tagline{
+	float:left;
+	margin: 40px 20px;}
+.home{float:right; margin: 40px 50px;}
+.price{float: right; margin: 40px 50px;}
+
 
 /*
   ========================================
